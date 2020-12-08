@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p{
+  font-size: 1.5em;
+}
+h1 {
+  font-size: 5.625rem;
+  /* 2em = 16px 100% = 16px therfore 90px/16 - 562.5%*/
+  margin: 100px auto 0 auto;
+  font-family: 'Arimo', sans-serif;
+  color: #66BFBF
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px auto 20px auto;
+  font-size: 2.5rem;
+  color: #66BFBF
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 5px auto 12px auto;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  height: 1020px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding: 40px;
+  padding-top: 40px;
+  background-color: #66BFBF;
+  height: 80px;
+  word-spacing: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-img {
+  margin-top: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: thick;
+}
+.white-color{
+  color: white;
+  word-spacing: 0;
+  padding-top: 20px;
+  font-size: 10px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+  height: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 600px;
+  height: 80px;
+}
+
+.mountain {
+  height: 633px;
+}
+
+.blue-flame {
+  height: 180px;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.programmar {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.hello-description {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.dotted {
+  border-top: 10px dotted #EAF6F6;
+  width: 5%;
+  margin: 40px auto 40px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 30px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.black-belt-img {
+  float: left;
+  padding-right: 30px;
+}
+
+.guitar-img {
+  float: right;
+  padding-left: 30px;
+}
+.BUTTON_DZD {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 21px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_DZD:hover {
+   background: #11999E;
+   border: solid #11999E 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me{
+  margin: 20px;
+}
